@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+        url(../Images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #e7dfdf;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 5px solid rgb(61, 61, 58);
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto 20px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-btn-login {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+}
+.toggle-btn-register {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.toggle-btn-login:hover{
+    background-color: rgba(154, 154, 193, 0.614);
+    width: 110px;
+}
+.toggle-btn-register:hover{
+    background-color: rgba(154, 154, 193, 0.614);
+    width: 110px;
+}
+
+/* #btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+} */
+#btn-login:hover{
+    color: aliceblue;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons span {
+    width: 30px;
+    cursor: pointer;
+}
+
+.input-group {
+    top: 180px;
+    left: 60px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: rgba(0, 0, 0, 0.989);
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 28px;
+    top: 180px;
+}
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+.social-icons-register {
+    position: absolute;
+    top: 90px;
+    left:140px;
+    display: flex;
+    justify-content: center;
+}
+.social-icons-register span{
+    padding-right: 15px;
+}
+.input-group-register {
+    top: 120px;
+    left: 60px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    
+}
+.input-field-register {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: rgba(13, 13, 13, 0.705);
+    background: transparent;
+}
+
+.submit-btn-register{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 28px;
+    top:300px;
+}
+.check-box-register{
+    margin-top: 10px;
+}
+.check-box-register input{
+    margin-right: 5px;
+}
+.check-box span {
+    color: #777;
+    font-size: 12px;
+    bottom: 8px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width:500px) {
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .form-box {
+        background-color: rgba(78, 73, 73, 0.237);
+    }
+}
+
+@media (max-width:948px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-box {
+        background-color: rgba(202, 193, 193, 0.758);
+    }
+}
